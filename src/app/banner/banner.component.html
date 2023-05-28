@@ -1,0 +1,22 @@
+{{frame}}
+<br>
+{{elem1Left}}
+<br>
+{{elem2Left}}
+<br>
+{{banneridx}}
+<br>
+{{bannerMoveRemain}}
+<br>
+<button (click)="leftBanner()">To left</button>
+<button (click)="rightBanner()">To right</button>
+
+<div class="banner-container">
+  <div class="banner" style="background-color: aquamarine;" [style.top.px]="elem1Top" [style.left.px]="elem1Left">
+    Element 1
+  </div>
+
+  <div class="banner"  style="background-color:antiquewhite" [style.top.px]="elem2Top" [style.left.px]="elem2Left">
+    Element 2
+  </div>
+</div>

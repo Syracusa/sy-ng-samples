@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BannerComponent } from './banner/banner.component';
+import { HorizontalScrollComponent } from './horizontal-scroll/horizontal-scroll.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BannerComponent,
+    HorizontalScrollComponent
   ],
   imports: [
     BrowserModule,
